@@ -5,146 +5,220 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Estopafanpage</title>
 </head>
 
 <body>
 
-    <header>
-        <a href="index.html">
-            <img src="./assets/imagenes/logo_estopa_nuevo2.png" alt="logo"  /></a>
-        <nav class="menu">
-            <ul class="links">
-                <li><a class="decoration" href="./assets/pages/noticias.html">notícias</a></li>
-                <li><a class="decoration" href="./assets/pages/biografia.html">biografía</a></li>
-                <li><a class="decoration" href="./assets/pages/fotos.html">fotos</a></li>
-                <li><a class="decoration" href="./assets/pages/videos.html">videos</a></li>
-                <li><a class="decoration" href="./assets/pages/contacto.html">contacto</a></li>
-            </ul>
-            
-            <h1 class="center">ESTO ES ESTOPA</h1>
-        </nav>
-        <div class="center">
-        <img src="./assets/imagenes/imagen.jpg" alt="portada" class="portada" />
-    </div>
+    <header class="navbar navbar-expand-lg navbar-expand-md">
+        <div class="container">
+            <a class="navbar-brand p-2" href="./index.html"><img src="./assets/imagenes/logo_estopa_nuevo2.png" alt=""
+                    class="w-100">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown " aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <nav class="navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active   text-warning" 
+                            href="./assets/pages/noticias.html">noticias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  text-warning"
+                            href="./assets/pages/biografia.html">biografía</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning" href="./assets/pages/fotos.html">fotos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning" href="./assets/pages/videos.html">videos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning"
+                            href="./assets/pages/contacto.html">contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <div class="center">
-    <iframe width="800" height="405" src="https://www.youtube.com/embed/60AgQWx5EMg" title="YouTube video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-    </div>
+    <h1 class="d-flex text-center justify-content-center ">ESTO ES ESTOPA</h1>
+    </nav>
 
     
+    <div class="d-flex justify-content-center">
+        <img class="w-75" src="./assets/imagenes/imagen.jpg" alt="portada"/>
+    </div>
+    </header>
+    <div class="container justify-content-center">
+        <div class="row">
+            <iframe class="p-3" width="1280" height="720" src="https://www.youtube.com/embed/60AgQWx5EMg"
+                title="Acústico de Tu Calorro - Estopa (Cover by Manolico y su Bombo)" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+
+
 
     <main>
-        <section>
-            <h2  class="center">NOTÍCIAS DE ACTUALIDAD</h2>
-
-            <article>
-                <div class="center">
-                <img src="./assets/imagenes/NOTICIA1.jpg" alt="" width="600px">
-            </div>
-                <h3 class="center">Estopa se une a Fito y Fitipaldis en una nueva versión de “Camiseta de Rokanrol”</h3>
-                <p class="center">Estopa y Fito y Fitipaldis mezcla mejor que bien, y si el tema que los conecta se llama Camiseta de
-                    rokanrol la cosa cobra sentido y gana tensión. Es en efecto la canción elegida por los de Cornellá
-                    para
-                    unir sus fuerzas con una de las bandas de rock más relevantes que ha dado la música en España. El
-                    resultado es una vuelta de tuerca —por supuesto, en clave de rock— del tema incluido en Fuego, su
-                    álbum
-                    de 2019.
-
-                    Convergen así dos proyectos con más de 20 años de trayectoria a sus espaldas, consagrados como dos
-                    de
-                    las bandas más aclamadas de nuestra música, creadores de algunos temas principales de la banda
-                    sonora de
-                    más de una generación.
-
-                    Camiseta de rokanrol escarba en la versión más eléctrica de los Estopa —que acompaña desde siempre
-                    su
-                    vertiente rumbera—, para añadirle al tema ese saxo, esa voz de Fito y ese sentimiento de Fitipaldis
-                    que
-                    enriquece una de las grandes joyas que esconde Fuego. Curiosamente, en lo que constituye el primer
-                    encuentro entre dos artistas con muchos elementos que compartir, pero que hasta ahora no habían
-                    colaborado juntos.</p>
-            </article>
-
-            <article>
-                <div class="center">
-                <img src="./assets/imagenes/NOTICIA2.png" alt="" width="600px">
-            </div>
-                <h3 class="center">Estopa anuncia segunda fecha en el Wizink Center de Madrid</h3>
-                <P class="center">Tras colgar el cartel de SOLD OUT en su concierto del día 30 de septiembre. Estopa amplía un día más
-                    su
-                    cita en el Wizink Center de Madrid con un nuevo concierto el próximo 1 de octubre.
-
-                    Las entradas para esta nueva fecha ya están a la venta.
-
-                    Con esta ampliación, Estopa quiere facilitar que ningún seguidor madrileño se quede sin disfrutar de
-                    la
-                    Gira Fuego, que fue retrasada en 2020 por la pandemia.</P>
-
-                <section>
-
-                    <article>
-                        <div class="center">
-                        <img src="./assets/imagenes/NOTICIA3.jpg" alt="" width="600px">
+        <section class="conteiner">
+            <div class="row">
+                <h2 class="d-flex justify-content-center">NOTÍCIAS DE ACTUALIDAD</h2>
+                
+                <article>
+                    <div class="d-flex justify-content-center">
+                        <img class="w-50" src="./assets/imagenes/NOTICIA1.jpg" alt="noticias1">
                     </div>
-                        
-                        <h3 class="center">Ya disponible “El madero”, tema principal de la nueva temporada de “Los hombres de Paco”
-                        </h3>
-                        <p class="center">“Los hombres de Paco” están de vuelta. La exitosa serie de Antena 3, producida por Atresmedia
-                            en
-                            colaboración con Globomedia (THE MEDIAPRO STUDIO), que se convirtió en todo un fenómeno
-                            alcanzando los
-                            117 capítulos y un total de nueve temporadas, podrá verse próximamente en el prime time de
-                            la cadena y
-                            también en ATRESplayer PREMIUM.
+                    <h3 class="d-flex justify-content-center">Estopa se une a Fito y Fitipaldis en una nueva versión de
+                        “Camiseta de Rokanrol”</h3>
+                    <p class="d-flex justify-content-center">Estopa y Fito y Fitipaldis mezcla mejor que bien, y si el tema que
+                        los conecta se
+                        llama Camiseta de
+                        rokanrol la cosa cobra sentido y gana tensión. Es en efecto la canción elegida por los de
+                        Cornellá
+                        para
+                        unir sus fuerzas con una de las bandas de rock más relevantes que ha dado la música en España.
+                        El
+                        resultado es una vuelta de tuerca —por supuesto, en clave de rock— del tema incluido en Fuego,
+                        su
+                        álbum
+                        de 2019.
 
-                            Los hermanos Muñoz interpretan El Madero, el tema principal de “Los hombres de Paco” que
-                            sonará tanto en
-                            la cabecera como en los títulos de crédito de los nuevos capítulos. Es una canción secuela
-                            en la que
-                            ofrecen con maestría otro punto de vista de un viejo tema, “El Yonki”. En esta ocasión, la
-                            canción se
-                            explica desde el punto de vista del “madero”.
+                        Convergen así dos proyectos con más de 20 años de trayectoria a sus espaldas, consagrados como
+                        dos
+                        de
+                        las bandas más aclamadas de nuestra música, creadores de algunos temas principales de la banda
+                        sonora de
+                        más de una generación.
 
-                            “Los hombres de Paco” regresan manteniendo la esencia de la serie. Esta nueva etapa arranca
-                            con los
-                            Pacos de siempre, pero con un giro importante que marcará un antes y un después en la
-                            historia de los
-                            protagonistas. Un elenco de protagonistas, que vuelven interpretados por los míticos actores
-                            que ya se
-                            pusieron en la piel de aquellos policías de barrio entrañables y desastrosos que se hicieron
-                            un hueco en
-                            el corazón del público.</p>
-                    </article>
-                </section>
+                        Camiseta de rokanrol escarba en la versión más eléctrica de los Estopa —que acompaña desde
+                        siempre
+                        su
+                        vertiente rumbera—, para añadirle al tema ese saxo, esa voz de Fito y ese sentimiento de
+                        Fitipaldis
+                        que
+                        enriquece una de las grandes joyas que esconde Fuego. Curiosamente, en lo que constituye el
+                        primer
+                        encuentro entre dos artistas con muchos elementos que compartir, pero que hasta ahora no habían
+                        colaborado juntos.</p>
+                </article>
+
+                <article>
+                    <div class="d-flex justify-content-center">
+                        <img class="w-50" src="./assets/imagenes/NOTICIA2.png" alt="" >
+                    </div>
+                    <h3 class="d-flex justify-content-center">Estopa anuncia segunda fecha en el Wizink Center de Madrid</h3>
+                    <P class="d-flex justify-content-center">Tras colgar el cartel de SOLD OUT en su concierto del día 30 de
+                        septiembre. Estopa
+                        amplía un día más
+                        su
+                        cita en el Wizink Center de Madrid con un nuevo concierto el próximo 1 de octubre.
+
+                        Las entradas para esta nueva fecha ya están a la venta.
+
+                        Con esta ampliación, Estopa quiere facilitar que ningún seguidor madrileño se quede sin
+                        disfrutar de
+                        la
+                        Gira Fuego, que fue retrasada en 2020 por la pandemia.</P>
+
+                    <section>
+
+                        <article>
+                            <div class="d-flex justify-content-center">
+                                <img class="w-50" src="./assets/imagenes/NOTICIA3.jpg" alt="">
+                            </div>
+
+                            <h3 class="d-flex justify-content-center">Ya disponible “El madero”, tema principal de la nueva
+                                temporada de “Los
+                                hombres de Paco”
+                            </h3>
+                            <p class="d-flex justify-content-center">“Los hombres de Paco” están de vuelta. La exitosa serie de
+                                Antena 3, producida
+                                por Atresmedia
+                                en
+                                colaboración con Globomedia (THE MEDIAPRO STUDIO), que se convirtió en todo un fenómeno
+                                alcanzando los
+                                117 capítulos y un total de nueve temporadas, podrá verse próximamente en el prime time
+                                de
+                                la cadena y
+                                también en ATRESplayer PREMIUM.
+
+                                Los hermanos Muñoz interpretan El Madero, el tema principal de “Los hombres de Paco” que
+                                sonará tanto en
+                                la cabecera como en los títulos de crédito de los nuevos capítulos. Es una canción
+                                secuela
+                                en la que
+                                ofrecen con maestría otro punto de vista de un viejo tema, “El Yonki”. En esta ocasión,
+                                la
+                                canción se
+                                explica desde el punto de vista del “madero”.
+
+                                “Los hombres de Paco” regresan manteniendo la esencia de la serie. Esta nueva etapa
+                                arranca
+                                con los
+                                Pacos de siempre, pero con un giro importante que marcará un antes y un después en la
+                                historia de los
+                                protagonistas. Un elenco de protagonistas, que vuelven interpretados por los míticos
+                                actores
+                                que ya se
+                                pusieron en la piel de aquellos policías de barrio entrañables y desastrosos que se
+                                hicieron
+                                un hueco en
+                                el corazón del público.</p>
+                        </article>
+                    </section>
+            </div>
         </section>
     </main>
 
-    <hr>
 
+    <footer class="container-fluid border-top">
 
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="d-flex flex-column align-items-center col-lg-3 col-md-12">
+                    <img src="./assets/imagenes/sonyLogo1.png" alt="" class="w-50">
 
+                    
 
-    <footer>
-        <div >
-            <ul class="footer">
-                <li><img src="./assets/imagenes/instagram.png" alt="instragram">
-                    <a class="decoration"  href="https://www.instagram.com/estopaoficial/?hl=es" target="_blank">instagram</a>
-</li>
-                <li><img src="./assets/imagenes/facebook.png" alt=""><a  class="decoration" href="https://es-la.facebook.com/login/?next=https%3A%2F%2Fes-la.facebook.com%2Festopaoficial"target="_blank">facebook</a>
-                </li>
-            </ul>
+                    <span>estopa@gmail.com</span>
+                </div>
 
+            <div class="col-lg-3 col-md-12 col-xl-12">
+            <h4 class="p-2 text-center text-lg-start fst-italic">Nuestras redes</h4>
 
+            <div class="d-flex justify-content-evenly justify-content-lg-between fs-2 justify-content-md-evenly justify-content-xl-center">
+            <img src="./assets/imagenes/instagram.png"alt="instragram">
+            <img src="./assets/imagenes/facebook.png" alt="facebook">
+            </div>
+            </div>
+            <h4 class="p-3 text-center text-lg-start fst-italic">Suscribite a nuestra Pagina</h4>
+            <div class="d-flex aling-items-center justify-content-center justify-content-lg-start">
+            <div>
+            <input type="email" class="form-control" id="form-email" placeholder="name@example">
+            </div>
+
+            <input type="submit" class="btn btn-primary" value="Enviar">
+            </div>
+
+            </div>
+
+<p class="text-center m-0 p-2 fst-italic">jesusmatoso@2022, todos los derechos reservados</p>
         </div>
-        <div>
-            <p class="center">JESUS MATOSO CURSO CORDERHOUSE</p>
-        </div>
-        <div><img src="./assets/imagenes/sonyLogo1.png" alt="">
-        </div>
+
     </footer>
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

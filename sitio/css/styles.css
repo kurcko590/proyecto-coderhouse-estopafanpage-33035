@@ -1,36 +1,88 @@
-k*{margin:0;
-padding: 0;
-box-sizing: border-box;}
-
-body{background-color: black;}
-
-body{background-image:url(../assets/imagenes/chanchito.png) ;
-background-repeat: no-repeat;
-background-position: top;
-background-size: auto;
-background-attachment: fixed;}
-
-h1{color: rgb(244, 255, 37);}
-h2{color: rgb(135, 196, 15);}
-h3{color: rgb(144, 209, 13);}
-h4{color: rgb(202, 226, 153);}
-p{color: rgb(159, 200, 142);}
-label{color: goldenrod;}
-option{color: goldenrod;}
-span{color: goldenrod;}
-a{font-size: 50px}
-p{font-size: 25px; font-style: italic;}
-h1,h2,h3,h4{font-weight: 800;font-style: italic;padding: 2%}
-
-h1{font-size: 70px;
+h1 {
+  color: rgb(244, 255, 37);
 }
-h2{font-size: 40px;
+
+h2 {
+  color: rgb(135, 196, 15);
 }
-h3{font-size: 35px;}
 
+h3 {
+  color: rgb(144, 209, 13);
+}
 
+h4 {
+  color: rgb(202, 226, 153);
+}
 
+p {
+  color: rgb(159, 200, 142);
+}
 
+label {
+  color: goldenrod;
+}
 
+option {
+  color: goldenrod;
+}
 
+span {
+  color: goldenrod;
+}
 
+a {
+  font-size: 50px;
+}
+
+p {
+  font-size: 25px;
+  font-style: italic;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 800;
+  font-style: italic;
+  padding: 2%;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 35px;
+}
+
+body {
+  background-color: black;
+}
+
+body {
+  background-image: url(../assets/imagenes/chanchito.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: auto;
+  background-attachment: fixed;
+}
+
+.pagina {
+  display: none;
+}
+
+@media (max-width: 481px) and (min-width: 768px) {
+  .seccion-noticias {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
